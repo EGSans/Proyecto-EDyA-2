@@ -1,0 +1,109 @@
+/* styles.css */
+
+/* Estilos generales */
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #1f196f;
+    color: #fff;
+    padding: 20px;
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    align-items: center; /* Alineamos verticalmente los elementos */
+}
+
+header img {
+    width: 100px; /* Ancho deseado para el logo */
+}
+
+header h1 {
+    margin: 0; /* Eliminamos el margen por defecto del título */
+    flex-grow: 1; /* El texto ocupará todo el espacio restante */
+    text-align: center; /* Centramos el texto */
+}
+
+
+
+
+/* Formulario de inicio de sesión */
+#login {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #240776;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Sección de carteleras */
+#carteleras {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pelicula {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pelicula img {
+    width: 200px; 
+    height: 300px; 
+    object-fit: cover; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+/* Formulario de compra de boletos */
+#compra {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(32, 3, 137, 0.1);
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #07136e;
+    color: #fff;
+}

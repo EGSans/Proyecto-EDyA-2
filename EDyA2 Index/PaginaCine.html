@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineHub</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu archivo CSS aquí -->
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a CineHub</h1>
+        <img src="Imgs/Screenshot 2024-05-28 123747.png">
+    </header>
+
+    <section id="login">
+        <h2>Iniciar Sesión</h2>
+        <form action="login.php" method="post">
+            <input type="text" name="usuario" placeholder="Usuario" required>
+            <input type="password" name="contrasena" placeholder="Contraseña" required>
+            <button type="submit">Ingresar</button>
+        </form>
+    </section>
+
+    <section id="carteleras">
+        <h2>Carteleras de Películas</h2>
+        <!-- Aquí puedes mostrar las películas disponibles -->
+        <div class="pelicula">
+            <img src="Imgs/Endgame.jpg" alt="Avengers: Endgame">
+            <p>Avengers: Endgame</p>
+            <p>Horarios: 10:00 AM, 1:30 PM, 5:00 PM, 8:30 PM</p>
+            <button>Comprar boletos</button>
+        </div>
+        <div class="pelicula">
+            <img src="Imgs/Toy.webp" alt="Toy Story 4">
+            <p>Toy Story 4</p>
+            <p>Horarios: 11:00 AM, 2:30 PM, 6:00 PM, 9:30 PM</p>
+            <button>Comprar boletos</button>
+        </div>
+        <div class="pelicula">
+            <img src="Imgs/Leon.jpeg" alt="El Rey León">
+            <p>El Rey León</p>
+            <p>Horarios: 12:00 PM, 3:30 PM, 7:00 PM, 10:30 PM</p>
+            <button>Comprar boletos</button>
+        </div>
+        <div class="pelicula">
+            <img src="Imgs/Frozen.jpg" alt="Frozen II">
+            <p>Frozen II</p>
+            <p>Horarios: 10:30 AM, 2:00 PM, 5:30 PM, 9:00 PM</p>
+            <button>Comprar boletos</button>
+        </div>
+        <div class="pelicula">
+            <img src="Imgs/Joker.jpg" alt="Joker">
+            <p>Joker</p>
+            <p>Horarios: 11:30 AM, 3:00 PM, 6:30 PM, 10:00 PM</p>
+            <button>Comprar boletos</button>
+        </div>
+        <div class="pelicula">
+            <img src="Imgs/Parasitos.webp" alt="Parásitos">
+            <p>Parásitos</p>
+            <p>Horarios: 12:30 PM, 4:00 PM, 7:30 PM, 11:00 PM</p>
+            <button>Comprar boletos</button>
+        </div>
+        <div class="pelicula">
+            <img src="Imgs/1917.jpg" alt="1917">
+            <p>1917</p>
+            <p>Horarios: 1:00 PM, 4:30 PM, 8:00 PM, 11:30 PM</p>
+            <button>Comprar boletos</button>
+        </div>
+    </section>
+
+    <section id="compra">
+        <h2>Compra de Boletos</h2>
+        <form action="compra.php" method="post">
+            <input type="number" name="cantidad_boletos" placeholder="Cantidad de boletos" required>
+            <select name="metodo_pago" required>
+                <option value="paypal">PayPal</option>
+                <option value="tarjeta">Tarjeta/Débito</option>
+                <option value="nequi">Nequi</option>
+            </select>
+            <button type="submit">Comprar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Cine CineHub. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
