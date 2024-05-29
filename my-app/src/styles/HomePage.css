@@ -1,0 +1,15 @@
+/* Estilos generales para la página de inicio */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #07136e;
+    color: #fff;
+}
