@@ -1,0 +1,13 @@
+/* Estilos para las tarjetas de películas */
+.pelicula {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pelicula img {
+    width: 200px; 
+    height: 300px; 
+    object-fit: cover; 
+    display: block; 
+    margin: 0 auto; 
+}
