@@ -12,6 +12,9 @@ const HomePage = () => {
   return (
     <div>
       <Header />
+      <div className="top-left-button-container">
+        <Link to="/about" className="top-left-button">Colaboradores</Link>
+      </div>
       <LoginForm />
       <div className="register-button-container">
         <Link to="/register" className="register-button">Registrarse</Link>
